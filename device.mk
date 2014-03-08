@@ -67,7 +67,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 	loki.sh \
 	loki_patch \
-	loki_flash
+	loki_flash \
+	loki_unpatch
 
 PRODUCT_COPT_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
