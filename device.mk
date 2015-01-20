@@ -68,8 +68,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 	loki.sh \
 	loki_tool_static_gproj \
-	recovery-transform.sh \
-	loki_unpatch
+	recovery-transform.sh
 
 PRODUCT_COPT_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
